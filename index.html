@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<header>
+    <h1>Rick and Morty Characters</h1>
+    <div class="filterStatus">
+        <p id="filterByStatusNadpis">Filter by Status</p>
+        <div class="filter-status">
+            <label for="alive">
+                <input type="checkbox" id="alive" checked="checked" name="status" value="alive">
+                Alive
+            </label>
+            <label for="dead">
+                <input type="checkbox" id="dead" checked="checked" name="status" value="dead">
+                Dead
+            </label>
+            <label for=unknown>
+                <input type="checkbox" id="unknown" checked="checked" name="status" value=unknown>
+                Unknown
+            </label>
+        </div>
+    </div>
+</header>
+<hr>
+    <div id="errorContainer"></div>
+    <div id="container">
+
+    </div>
+<div id="buttons">
+    <button id="prev" class="btn">Previous</button>
+    <button id="next" class="btn">Next</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+hr{
+    border: none;
+    border-top: 1px #E4E5EA solid;
+    margin-bottom: 30px;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.filterStatus{
+    margin-left: auto;
+    margin-right: 20px;
+}
+h1{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 1146px;
+}
+.containerInContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 123px;
+    border-radius: 10px;
+    border: 1px #E4E5EA solid;
+    padding: 20px;
+}
+.pfp{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.characterName{
+    font-size: 18px;
+    font-weight: bold;
+    width: 100px;
+    overflow-wrap: break-word;
+    word-wrap: normal;
+    word-break: inherit;
+    margin-bottom: 0;
+}
+.characterSpecies{
+    margin-top: 0;
+    font-size: 14px;
+    color: #6C7381;
+}
+.characterStatus{
+    overflow-wrap: break-word;
+    width: 50px;
+    text-align: right;
+    word-wrap: normal;
+    word-break: inherit;
+    margin-bottom: 0;
+}
+.profileInfo{
+    margin-right: 50px;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+.btn{
+    width: 110px;
+    height: 47px;
+    background-color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px #E4E5EA solid;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+label{
+    border: 2px #E4E5EA solid;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 7px;
+}
+label:hover{
+    cursor: pointer;
+}
+input{
+    margin-left: 0;
+}
+.filter-status{
+    display: flex;
+    gap: 10px;
+}
+#filterByStatusNadpis{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.errorMsg{
+    font-size: 30px;
+    font-weight: bold;
+}
+#errorContainer{
+    display: flex;
+    justify-content: center;
+}
